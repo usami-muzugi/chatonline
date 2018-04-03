@@ -26,22 +26,21 @@ public class User {
     private String userName;
     //用户密码
     private String userPassword;
-
+    //用户Email
     private String userEmail;
-
+    //用户注册时间
     private Long userRegistedTime;
-
-
+    //用户注册IP
     private String userRegistedIP;
-
+    //用户最后登录时间
     private Long userLastLoginTime;
-
+    //用户登录IP表
     private String userLoginIPList;
-
+    //用户状态是否可用
     private boolean userAccountAvailableStatus;
-
+    //用户问题
     private String userQuestion;
-
+    //用户回答
     private String userAnswer;
 
     public String getUserQuestion() {
